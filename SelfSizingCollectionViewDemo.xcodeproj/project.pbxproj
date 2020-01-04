@@ -14,6 +14,12 @@
 		6657E4B423C0084200A15B02 /* HorizontalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4B223C0084200A15B02 /* HorizontalCollectionViewController.xib */; };
 		6657E4B823C0096F00A15B02 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657E4B623C0096F00A15B02 /* HorizontalCollectionViewCell.swift */; };
 		6657E4B923C0096F00A15B02 /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4B723C0096F00A15B02 /* HorizontalCollectionViewCell.xib */; };
+		66FFC83823C01C4100E864CA /* VerticalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC83623C01C4100E864CA /* VerticalCollectionViewController.swift */; };
+		66FFC83B23C01CD900E864CA /* VerticalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FFC83A23C01CD900E864CA /* VerticalCollectionViewController.xib */; };
+		66FFC83F23C01D1300E864CA /* VerticalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FFC83D23C01D1300E864CA /* VerticalCollectionViewCell.xib */; };
+		66FFC84023C01D1300E864CA /* VerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC83E23C01D1300E864CA /* VerticalCollectionViewCell.swift */; };
+		66FFC84423C01D8500E864CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFC84223C01D8500E864CA /* HomeViewController.swift */; };
+		66FFC84523C01D8500E864CA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FFC84323C01D8500E864CA /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		6657E4B223C0084200A15B02 /* HorizontalCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewController.xib; sourceTree = "<group>"; };
 		6657E4B623C0096F00A15B02 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		6657E4B723C0096F00A15B02 /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
+		66FFC83623C01C4100E864CA /* VerticalCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCollectionViewController.swift; sourceTree = "<group>"; };
+		66FFC83A23C01CD900E864CA /* VerticalCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalCollectionViewController.xib; sourceTree = "<group>"; };
+		66FFC83D23C01D1300E864CA /* VerticalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalCollectionViewCell.xib; sourceTree = "<group>"; };
+		66FFC83E23C01D1300E864CA /* VerticalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCollectionViewCell.swift; sourceTree = "<group>"; };
+		66FFC84223C01D8500E864CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		66FFC84323C01D8500E864CA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +83,9 @@
 		6657E4B023C0080400A15B02 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				66FFC84123C01D6900E864CA /* Home */,
 				6657E4BA23C01A3100A15B02 /* Horizontal */,
+				66FFC83523C01C4100E864CA /* Vertical */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -80,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				668E30EA23C01B200013C214 /* Horizontal */,
+				66FFC83C23C01D1300E864CA /* Vertical */,
 			);
 			path = UICollectionViewCell;
 			sourceTree = "<group>";
@@ -100,6 +115,33 @@
 				6657E4B723C0096F00A15B02 /* HorizontalCollectionViewCell.xib */,
 			);
 			path = Horizontal;
+			sourceTree = "<group>";
+		};
+		66FFC83523C01C4100E864CA /* Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC83623C01C4100E864CA /* VerticalCollectionViewController.swift */,
+				66FFC83A23C01CD900E864CA /* VerticalCollectionViewController.xib */,
+			);
+			path = Vertical;
+			sourceTree = "<group>";
+		};
+		66FFC83C23C01D1300E864CA /* Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC83E23C01D1300E864CA /* VerticalCollectionViewCell.swift */,
+				66FFC83D23C01D1300E864CA /* VerticalCollectionViewCell.xib */,
+			);
+			path = Vertical;
+			sourceTree = "<group>";
+		};
+		66FFC84123C01D6900E864CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66FFC84223C01D8500E864CA /* HomeViewController.swift */,
+				66FFC84323C01D8500E864CA /* HomeViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +202,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FFC83B23C01CD900E864CA /* VerticalCollectionViewController.xib in Resources */,
 				6657E4B923C0096F00A15B02 /* HorizontalCollectionViewCell.xib in Resources */,
+				66FFC83F23C01D1300E864CA /* VerticalCollectionViewCell.xib in Resources */,
 				6657E4B423C0084200A15B02 /* HorizontalCollectionViewController.xib in Resources */,
 				6657E4A923C007B000A15B02 /* LaunchScreen.storyboard in Resources */,
+				66FFC84523C01D8500E864CA /* HomeViewController.xib in Resources */,
 				6657E4A623C007B000A15B02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FFC84023C01D1300E864CA /* VerticalCollectionViewCell.swift in Sources */,
 				6657E4B323C0084200A15B02 /* HorizontalCollectionViewController.swift in Sources */,
 				6657E4B823C0096F00A15B02 /* HorizontalCollectionViewCell.swift in Sources */,
+				66FFC83823C01C4100E864CA /* VerticalCollectionViewController.swift in Sources */,
 				6657E49D23C007AC00A15B02 /* AppDelegate.swift in Sources */,
+				66FFC84423C01D8500E864CA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
