@@ -13,7 +13,7 @@ final class CollectionViewController: UIViewController {
     @IBOutlet private var collectionViews: [UICollectionView]!
 
     private let reuseIdentifier = "cell"
-    private let animals: [String] = ["ねこ", "あざらし", "いぬ", "パンダ", "キリン", "マヌルネコ", "ゾウ", "ペンギン"]
+    private let animals: [String] = ["cat", "kangaroo", "seal", "dog", "panda", "giraffe", "penguin", "zebra", "hippopotamus"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
