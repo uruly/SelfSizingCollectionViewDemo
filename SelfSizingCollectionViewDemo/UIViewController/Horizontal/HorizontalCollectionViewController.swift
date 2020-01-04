@@ -21,6 +21,7 @@ final class HorizontalCollectionViewController: UIViewController {
             collectionView.delegate = self
             collectionView.dataSource = self
             collectionView.register(UINib(nibName: "HorizontalCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+            // iOS12ではxibでの設定だけで動くが、iOS13ではコードで設定しないと可変にならない
             if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
                 layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
                 layout.invalidateLayout()
