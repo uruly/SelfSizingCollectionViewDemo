@@ -20,7 +20,7 @@ final class HorizontalCollectionViewController: UIViewController {
         for collectionView in collectionViews {
             collectionView.delegate = self
             collectionView.dataSource = self
-            collectionView.register(UINib(nibName: "SelfSizingCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+            collectionView.register(UINib(nibName: "HorizontalCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
             if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
                 layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
                 layout.invalidateLayout()
@@ -38,7 +38,7 @@ extension HorizontalCollectionViewController: UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! SelfSizingCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! HorizontalCollectionViewCell
         cell.configure(text: animals[indexPath.row])
         return cell
     }

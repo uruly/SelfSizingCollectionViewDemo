@@ -1,5 +1,5 @@
 //
-//  SelfSizingCollectionViewCell.swift
+//  HorizontalCollectionViewCell.swift
 //  SelfSizingCollectionViewDemo
 //
 //  Created by Reona Kubo on 2020/01/04.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class SelfSizingCollectionViewCell: UICollectionViewCell {
+final class HorizontalCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet private weak var textLabel: UILabel!
 
