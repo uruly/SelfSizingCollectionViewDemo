@@ -21,20 +21,20 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="LuS-NN-GKD">
-                    <rect key="frame" x="0.0" y="189" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="168.5" width="414" height="150"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="IHa-Ec-QZg"/>
+                        <constraint firstAttribute="height" constant="150" id="IHa-Ec-QZg"/>
                     </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="20" id="0ho-Yh-icN">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="20" id="0ho-Yh-icN">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                        <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uk2-SZ-6Mu">
-                    <rect key="frame" x="20" y="132" width="321.5" height="41"/>
+                    <rect key="frame" x="20" y="132" width="321.5" height="20.5"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -53,30 +53,6 @@
                             </attributes>
                         </fragment>
                         <fragment content="20">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment>
-                            <string key="content">
-[Section Insets] Left: </string>
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content=", Right: ">
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
                             <attributes>
                                 <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
@@ -86,20 +62,20 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dXX-J5-unL">
-                    <rect key="frame" x="0.0" y="406" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="401" width="414" height="150"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="Nzd-aE-y3t"/>
+                        <constraint firstAttribute="height" constant="150" id="Nzd-aE-y3t"/>
                     </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="20" id="c9B-8O-Yxm">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="20" id="c9B-8O-Yxm">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                        <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZC-n8-4uA">
-                    <rect key="frame" x="16" y="349" width="312" height="41"/>
+                    <rect key="frame" x="16" y="364.5" width="312" height="20.5"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -118,30 +94,6 @@
                             </attributes>
                         </fragment>
                         <fragment content="0">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment>
-                            <string key="content">
-[Section Insets] Left: </string>
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content=", Right: ">
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
                             <attributes>
                                 <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
@@ -151,20 +103,20 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="f1s-OG-jQk">
-                    <rect key="frame" x="0.0" y="559" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="633.5" width="414" height="150"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="zuv-xl-uKR"/>
+                        <constraint firstAttribute="height" constant="150" id="zuv-xl-uKR"/>
                     </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="0.0" id="sp2-dg-SEl">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="0.0" id="sp2-dg-SEl">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                        <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd9-VM-3zu">
-                    <rect key="frame" x="16" y="502" width="312" height="41"/>
+                    <rect key="frame" x="16" y="597" width="312" height="20.5"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -183,30 +135,6 @@
                             </attributes>
                         </fragment>
                         <fragment content="20">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment>
-                            <string key="content">
-[Section Insets] Left: </string>
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
-                            <attributes>
-                                <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content=", Right: ">
-                            <attributes>
-                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="16">
                             <attributes>
                                 <color key="NSColor" red="1" green="0.25828000000000001" blue="0.060670000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
@@ -232,37 +160,18 @@
                         <constraint firstAttribute="height" constant="48" id="KC7-Km-Vgq"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DuY-h1-lmz">
-                    <rect key="frame" x="0.0" y="285" width="414" height="48"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect 🙅‍♀️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZK-Vd-kIm">
-                            <rect key="frame" x="16" y="8" width="146" height="32"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.41996508690078072" green="0.54777171017399573" blue="0.64564165609137059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstItem="7ZK-Vd-kIm" firstAttribute="centerY" secondItem="DuY-h1-lmz" secondAttribute="centerY" id="1q6-1h-CaH"/>
-                        <constraint firstAttribute="height" constant="48" id="f82-qz-B0I"/>
-                        <constraint firstItem="7ZK-Vd-kIm" firstAttribute="leading" secondItem="DuY-h1-lmz" secondAttribute="leading" constant="16" id="vzI-VV-A0c"/>
-                    </constraints>
-                </view>
             </subviews>
             <color key="backgroundColor" red="0.9694241751269036" green="0.9694241751269036" blue="0.9694241751269036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Uk2-SZ-6Mu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="6hQ-cQ-09D"/>
                 <constraint firstItem="dXX-J5-unL" firstAttribute="top" secondItem="nZC-n8-4uA" secondAttribute="bottom" constant="16" id="71L-bd-WrH"/>
-                <constraint firstItem="DuY-h1-lmz" firstAttribute="top" secondItem="LuS-NN-GKD" secondAttribute="bottom" constant="46" id="DCe-ee-jQC"/>
                 <constraint firstItem="LuS-NN-GKD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FEB-rL-HDn"/>
-                <constraint firstItem="nZC-n8-4uA" firstAttribute="top" secondItem="DuY-h1-lmz" secondAttribute="bottom" constant="16" id="I4q-6i-v5Z"/>
                 <constraint firstAttribute="trailing" secondItem="f1s-OG-jQk" secondAttribute="trailing" id="JyY-7M-nLt"/>
                 <constraint firstItem="LuS-NN-GKD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MB9-rs-Ddu"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LuS-NN-GKD" secondAttribute="trailing" id="NbI-wj-G1v"/>
+                <constraint firstItem="nZC-n8-4uA" firstAttribute="top" secondItem="LuS-NN-GKD" secondAttribute="bottom" constant="46" id="PNA-VR-UFv"/>
                 <constraint firstItem="nZC-n8-4uA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="QhT-6P-n4s"/>
                 <constraint firstItem="hd9-VM-3zu" firstAttribute="top" secondItem="dXX-J5-unL" secondAttribute="bottom" constant="46" id="bdm-Hs-27j"/>
-                <constraint firstItem="DuY-h1-lmz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dhY-z1-M3X"/>
                 <constraint firstItem="uhF-EP-ouj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ebh-mz-1xl"/>
                 <constraint firstItem="Uk2-SZ-6Mu" firstAttribute="top" secondItem="uhF-EP-ouj" secondAttribute="bottom" constant="16" id="fJs-VZ-LAw"/>
                 <constraint firstItem="uhF-EP-ouj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="j10-y2-tAk"/>
@@ -271,7 +180,6 @@
                 <constraint firstItem="f1s-OG-jQk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pUk-Og-TKJ"/>
                 <constraint firstItem="hd9-VM-3zu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="qFL-dY-rjv"/>
                 <constraint firstItem="dXX-J5-unL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qvl-UI-gBE"/>
-                <constraint firstItem="DuY-h1-lmz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="voZ-XH-wNx"/>
                 <constraint firstItem="LuS-NN-GKD" firstAttribute="top" secondItem="Uk2-SZ-6Mu" secondAttribute="bottom" constant="16" id="yOn-IL-D2K"/>
                 <constraint firstItem="f1s-OG-jQk" firstAttribute="top" secondItem="hd9-VM-3zu" secondAttribute="bottom" constant="16" id="ysa-oj-HPj"/>
             </constraints>
