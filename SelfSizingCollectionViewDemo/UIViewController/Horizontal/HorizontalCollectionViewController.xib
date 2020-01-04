@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewController" customModule="SelfSizingCollectionViewDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HorizontalCollectionViewController" customModule="SelfSizingCollectionViewDemo" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="collectionViews" destination="LuS-NN-GKD" collectionClass="NSMutableArray" id="Vs4-TA-3uC"/>
@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="LuS-NN-GKD">
-                    <rect key="frame" x="0.0" y="189" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="145" width="414" height="50"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="IHa-Ec-QZg"/>
@@ -34,7 +34,7 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uk2-SZ-6Mu">
-                    <rect key="frame" x="20" y="132" width="321.5" height="41"/>
+                    <rect key="frame" x="20" y="88" width="321.5" height="41"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -86,7 +86,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dXX-J5-unL">
-                    <rect key="frame" x="0.0" y="406" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="362" width="414" height="50"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="Nzd-aE-y3t"/>
@@ -99,7 +99,7 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZC-n8-4uA">
-                    <rect key="frame" x="16" y="349" width="312" height="41"/>
+                    <rect key="frame" x="16" y="305" width="312" height="41"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -151,7 +151,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="f1s-OG-jQk">
-                    <rect key="frame" x="0.0" y="559" width="414" height="50"/>
+                    <rect key="frame" x="0.0" y="515" width="414" height="50"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="zuv-xl-uKR"/>
@@ -164,7 +164,7 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd9-VM-3zu">
-                    <rect key="frame" x="16" y="502" width="312" height="41"/>
+                    <rect key="frame" x="16" y="458" width="312" height="41"/>
                     <attributedString key="attributedText">
                         <fragment content="[Min Spacing] For Cells: ">
                             <attributes>
@@ -216,7 +216,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhF-EP-ouj">
-                    <rect key="frame" x="0.0" y="68" width="414" height="48"/>
+                    <rect key="frame" x="0.0" y="24" width="414" height="48"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct 🙆‍♀️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abc-Cm-iJV">
                             <rect key="frame" x="16" y="8" width="128" height="32"/>
@@ -233,7 +233,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DuY-h1-lmz">
-                    <rect key="frame" x="0.0" y="285" width="414" height="48"/>
+                    <rect key="frame" x="0.0" y="241" width="414" height="48"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect 🙅‍♀️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZK-Vd-kIm">
                             <rect key="frame" x="16" y="8" width="146" height="32"/>

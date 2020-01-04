@@ -10,8 +10,8 @@
 		6657E49D23C007AC00A15B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657E49C23C007AC00A15B02 /* AppDelegate.swift */; };
 		6657E4A623C007B000A15B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4A523C007B000A15B02 /* Assets.xcassets */; };
 		6657E4A923C007B000A15B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4A723C007B000A15B02 /* LaunchScreen.storyboard */; };
-		6657E4B323C0084200A15B02 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657E4B123C0084200A15B02 /* CollectionViewController.swift */; };
-		6657E4B423C0084200A15B02 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4B223C0084200A15B02 /* CollectionViewController.xib */; };
+		6657E4B323C0084200A15B02 /* HorizontalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657E4B123C0084200A15B02 /* HorizontalCollectionViewController.swift */; };
+		6657E4B423C0084200A15B02 /* HorizontalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4B223C0084200A15B02 /* HorizontalCollectionViewController.xib */; };
 		6657E4B823C0096F00A15B02 /* SelfSizingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6657E4B623C0096F00A15B02 /* SelfSizingCollectionViewCell.swift */; };
 		6657E4B923C0096F00A15B02 /* SelfSizingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657E4B723C0096F00A15B02 /* SelfSizingCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -22,8 +22,8 @@
 		6657E4A523C007B000A15B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6657E4A823C007B000A15B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6657E4AA23C007B000A15B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6657E4B123C0084200A15B02 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		6657E4B223C0084200A15B02 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		6657E4B123C0084200A15B02 /* HorizontalCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewController.swift; sourceTree = "<group>"; };
+		6657E4B223C0084200A15B02 /* HorizontalCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewController.xib; sourceTree = "<group>"; };
 		6657E4B623C0096F00A15B02 /* SelfSizingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingCollectionViewCell.swift; sourceTree = "<group>"; };
 		6657E4B723C0096F00A15B02 /* SelfSizingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfSizingCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +71,7 @@
 		6657E4B023C0080400A15B02 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6657E4B123C0084200A15B02 /* CollectionViewController.swift */,
-				6657E4B223C0084200A15B02 /* CollectionViewController.xib */,
+				6657E4BA23C01A3100A15B02 /* Horizontal */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -84,6 +83,15 @@
 				6657E4B723C0096F00A15B02 /* SelfSizingCollectionViewCell.xib */,
 			);
 			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6657E4BA23C01A3100A15B02 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				6657E4B123C0084200A15B02 /* HorizontalCollectionViewController.swift */,
+				6657E4B223C0084200A15B02 /* HorizontalCollectionViewController.xib */,
+			);
+			path = Horizontal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6657E4B923C0096F00A15B02 /* SelfSizingCollectionViewCell.xib in Resources */,
-				6657E4B423C0084200A15B02 /* CollectionViewController.xib in Resources */,
+				6657E4B423C0084200A15B02 /* HorizontalCollectionViewController.xib in Resources */,
 				6657E4A923C007B000A15B02 /* LaunchScreen.storyboard in Resources */,
 				6657E4A623C007B000A15B02 /* Assets.xcassets in Resources */,
 			);
@@ -158,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6657E4B323C0084200A15B02 /* CollectionViewController.swift in Sources */,
+				6657E4B323C0084200A15B02 /* HorizontalCollectionViewController.swift in Sources */,
 				6657E4B823C0096F00A15B02 /* SelfSizingCollectionViewCell.swift in Sources */,
 				6657E49D23C007AC00A15B02 /* AppDelegate.swift in Sources */,
 			);

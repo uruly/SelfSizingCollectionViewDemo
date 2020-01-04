@@ -1,5 +1,5 @@
 //
-//  CollectionViewController.swift
+//  HorizontalCollectionViewController.swift
 //  SelfSizingCollectionViewDemo
 //
 //  Created by Reona Kubo on 2020/01/04.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CollectionViewController: UIViewController {
+final class HorizontalCollectionViewController: UIViewController {
 
     @IBOutlet private var collectionViews: [UICollectionView]!
 
@@ -31,7 +31,7 @@ final class CollectionViewController: UIViewController {
 
 // MARK: - UICollectionViewDataSource
 
-extension CollectionViewController: UICollectionViewDataSource {
+extension HorizontalCollectionViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return animals.count
@@ -47,4 +47,4 @@ extension CollectionViewController: UICollectionViewDataSource {
 
 // MARK: - UICollectionViewDelegate
 
-extension CollectionViewController: UICollectionViewDelegate {}
+extension HorizontalCollectionViewController: UICollectionViewDelegate {}
