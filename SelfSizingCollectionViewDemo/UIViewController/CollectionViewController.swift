@@ -10,8 +10,14 @@ import UIKit
 
 final class CollectionViewController: UIViewController {
 
-    @IBOutlet private weak var collectionView: UICollectionView! {
-        didSet {
+    @IBOutlet private var collectionViews: [UICollectionView]!
+
+    private let reuseIdentifier = "cell"
+    private let animals: [String] = ["ねこ", "あざらし", "いぬ", "パンダ", "キリン", "マヌルネコ", "ゾウ", "ペンギン"]
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        for collectionView in collectionViews {
             collectionView.delegate = self
             collectionView.dataSource = self
             collectionView.register(UINib(nibName: "SelfSizingCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
@@ -20,13 +26,6 @@ final class CollectionViewController: UIViewController {
                 layout.invalidateLayout()
             }
         }
-    }
-
-    private let reuseIdentifier = "cell"
-    private let animals: [String] = ["ねこ", "あざらし", "いぬ", "パンダ", "キリン", "マヌルネコ", "ゾウ", "ペンギン"]
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
     }
 }
 
